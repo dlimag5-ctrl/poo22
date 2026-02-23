@@ -18,10 +18,10 @@ class Docente : public Persona {
            
         }
 
-        void setCodigo(string codigo) { this->codigo = codigo; }
-        void setNit(string nit) { this->nit = nit; }
-        void setSalario(float salario) { this->salario = salario; }
-        void setProfesion(string profesion) { this->profesion = profesion; }
+        void setCodigo(string codigo) { >codigo = codigo; }
+        void setNit(string nit) { >nit = nit; }
+        void setSalario(float salario) { >salario = salario; }
+        void setProfesion(string profesion) { profesion = profesion; }
 
         string getCodigo() { return codigo; }
         string getNit() { return nit; }
